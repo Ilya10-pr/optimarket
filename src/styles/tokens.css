@@ -1,0 +1,29 @@
+/**
+ * Дизайн-токены: светлая гамма с синими акцентами.
+ */
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, serif;
+
+  --color-void: oklch(0.97 0.01 260);
+  --color-ink: oklch(0.28 0.028 265);
+  --color-panel: oklch(0.995 0.006 260);
+  --color-panel-muted: oklch(0.935 0.016 258);
+
+  /* Акценты: глубокий сапфир → яркий синий → лазурный */
+  --color-ember: oklch(0.45 0.14 264);
+  --color-blaze: oklch(0.55 0.16 262);
+  --color-glow: oklch(0.72 0.12 250);
+
+  --color-mist: oklch(0.5 0.02 258);
+  --color-snow: oklch(0.99 0.006 260);
+
+  --color-ring: oklch(0.52 0.14 262 / 0.38);
+
+  --radius-card: 1rem;
+  --radius-pill: 9999px;
+
+  --shadow-glow:
+    0 1px 2px oklch(0.35 0.03 265 / 0.07),
+    0 12px 40px oklch(0.48 0.1 262 / 0.14);
+}

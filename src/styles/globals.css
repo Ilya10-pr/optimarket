@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-void);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  ::selection {
+    background-color: oklch(0.55 0.14 262 / 0.22);
+    color: var(--color-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-blaze);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  /* Обёртки секций — общая вертикальная ритмика */
+  .section-shell {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
+  }
+
+  .section-y {
+    @apply py-10 sm:py-8;
+  }
+
+  /* Карточка / панель на светлом фоне */
+  .surface-card {
+    @apply rounded-[var(--radius-card)] border border-ink/10 bg-linear-to-br from-panel to-void shadow-[var(--shadow-glow)];
+  }
+
+  /* Акцентная «стрела» под заголовком */
+  .heading-accent {
+    @apply relative inline-block;
+  }
+
+  .heading-accent::after {
+    content: "";
+    @apply absolute -bottom-2 left-0 h-[3px] w-16 rounded-full bg-linear-to-r from-ember via-blaze to-glow opacity-90;
+  }
+
+  /* Кнопка первичная */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-[var(--radius-pill)] bg-linear-to-r from-ember to-blaze px-6 py-3 text-sm font-semibold tracking-wide text-snow shadow-[var(--shadow-glow)] transition hover:brightness-110 active:scale-[0.98];
+  }
+
+  /* Кнопка-контур на светлом */
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-[var(--radius-pill)] border border-ink/12 bg-panel/80 px-5 py-2.5 text-sm font-medium text-ink backdrop-blur-sm transition hover:border-blaze/45 hover:bg-panel;
+  }
+}

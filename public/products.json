@@ -1,0 +1,413 @@
+[
+  {
+    "id": "5071801",
+    "title": "Ноутбук Chuwi CoreBook Air Plus CWI654-R5660016G512G",
+    "category": "computers",
+    "price": "1950,00",
+    "discount": "10%",
+    "priceDiscount": "1761,00",
+    "description": "16.0' 1920 x 1200, IPS, 60 Гц, AMD Ryzen 5 6600H, 16 ГБ LPDDR5, SSD 512 ГБ, видеокарта встроенная, Windows 11 Pro, цвет крышки синий, аккумулятор 60 Вт·ч",
+    "badge": "В наличии",
+    "rating": 5,
+    "images": ["/assets/computers/l1.webp"
+    ]
+  },
+  {
+    "id": "1873961",
+    "title": "Корпус be quiet! PURE BASE 500DX BGW37",
+    "category": "computers",
+    "price": "549,99",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Mid Tower, БП отсутствует, для плат ATX/micro-ATX/mini-ITX, с 3 вентиляторами в комплекте, окно: закаленное стекло, видеокарта до 369 мм, охлаждение ЦП до 190 мм, пылевой фильтр - сверху/спереди/снизу, 1xUSB-A 3.2 5Гбит/с, 1xUSB-C 3.2 10Гбит/с, цвет черный",
+    "badge": "В наличии",
+    "rating": 4.7,
+    "images": ["/assets/computers/pure1.webp"
+    ]
+  },
+  {
+    "id": "4908982",
+    "title": "Ноутбук Chuwi CoreBook X CWI570-R5743016G512",
+    "category": "computers",
+    "price": "1599,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "14.0' 2160 x 1440, IPS, 60 Гц, AMD Ryzen 5 7430U, 16 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, Windows 11 Home, цвет крышки темно-серый, аккумулятор 46.2 Вт·ч",
+    "badge": "В наличии",
+    "rating": 5,
+    "images": ["/assets/computers/chuwi1.webp"
+    ]
+  },
+  {
+    "id": "5116361",
+    "title": "Акустика Harman/Kardon SoundSticks 5 (черный)",
+    "category": "computers",
+    "price": "1499,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "настольная (полочная), 2.1, мощность (RMS) 190 Вт, 40-20000 Гц, пластик, Bluetooth 5.4, подсветка",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/har1.webp"
+    ]
+  },
+  {
+    "id": "4760592",
+    "title": "Блок питания be quiet! Power Zone 2 850W",
+    "category": "computers",
+    "price": "739,99",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "ATX 850 Вт, платиновый сертификат 80 Plus, модульный, 1x 12В 70.8А, 1x PCIe Gen5, вентилятор 1x140 мм, с остановкой вентилятора (Fan-Stop)",
+    "badge": "В наличии",
+    "rating": 5,
+    "images": ["/assets/computers/power1.webp"]
+  },
+  {
+    "id": "4107399",
+    "title": "Блок питания be quiet! Straight Power 12 1200W BN339",
+    "category": "computers",
+    "price": "998,99",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "ATX 1200 Вт, платиновый сертификат 80 Plus, модульный, 1x 12В 100А, 2x PCIe Gen5, вентилятор 1x135 мм",
+    "badge": "В наличии",
+    "rating":5,
+    "images": ["/assets/computers/b1.webp"]
+  },
+  {
+    "id": "3859509",
+    "title": "Ноутбук Horizont H-book 14 МАК4 T32E3W",
+    "category": "computers",
+    "price": "1059,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "14.1' 1920 x 1080, IPS, 60 Гц, Intel Core i3 1115G4, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, Windows 11 Home, цвет крышки синий, аккумулятор 50 Вт·ч",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/H1.webp"]
+  },
+  {
+    "id": "4044710",
+    "title": "Видеокарта Sapphire Pulse Radeon RX 7600 8GB 11324-01-20G",
+    "category": "computers",
+    "price": "997,80",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "8 ГБ GDDR6, 1720 МГц / 2755 МГц, 2048sp, 32 RT-ядер, трассировка лучей, 128 бит, 2 слота, питание 8 pin, HDMI, DisplayPort",
+    "badge": "В наличии",
+    "rating": 4.7,
+    "images": ["/assets/computers/q1.webp"]
+  },
+  {
+    "id": "4609033",
+    "title": "Оперативная память Samsung 8ГБ DDR5 SODIMM 5600 МГц M425R1GB4BB0-CWMOD",
+    "category": "computers",
+    "price": "290,00",
+    "discount": "24",
+    "priceDiscount": "219,00",
+    "description": "8 ГБ, 1 модуль DDR5 SO-DIMM, частота 5600 МГц, CL 40T, напряжение 1.1 В",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/s1.webp"]
+  },
+  {
+    "id": "2886456",
+    "title": "Процессор Intel Core i7-12700",
+    "category": "computers",
+    "price": "1099,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "2022 г, Alder Lake, сокет LGA1700, 12 ядер, 20 потоков, частота 4.9/2.1 ГГц, кэш 12 МБ + 25 МБ, техпроцесс 10 нм, поддержка DDR4/DDR5, TDP 65W, OEM (без коробки, без кулера)",
+    "badge": "В наличии",
+    "rating": 5,
+    "images": ["/assets/computers/i1.webp"]
+  },
+  {
+    "id": "4760481",
+    "title": "Блок питания be quiet! Power Zone 2 750W",
+    "category": "computers",
+    "price": "649,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "ATX 750 Вт, платиновый сертификат 80 Plus, модульный, 1x 12В 62.5А, 1x PCIe Gen5, вентилятор 1x140 мм, с остановкой вентилятора (Fan-Stop)",
+    "badge": "В наличии",
+    "rating": 5,
+    "images": ["/assets/computers/z1.webp"]
+  },
+  {
+    "id": "4868313",
+    "title": "Блок питания Corsair HX1500i CP-9020309-EU",
+    "category": "computers",
+    "price": "1339,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "ATX 1500 Вт, платиновый сертификат 80 Plus, модульный, 1x 12В 125А, 2x PCIe Gen5, вентилятор 1x140 мм, с остановкой вентилятора (Fan-Stop)",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/cor1.webp"]
+  },
+  {
+    "id": "4868269",
+    "title": "Блок питания Corsair RM1000e CP-9020297-EU",
+    "category": "computers",
+    "price": "599,99",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "ATX 1000 Вт, модульный, 1x 12В 62.5А, 1x PCIe Gen5, вентилятор 1x120 мм, с остановкой вентилятора (Fan-Stop)",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/cors1.webp"]
+  },
+  {
+    "id": "4757482",
+    "title": "Видеокарта ASRock Radeon RX 7650 GRE Challenger 8GB OC RX7650GRE CL 8GO",
+    "category": "computers",
+    "price": "1020,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "8 ГБ GDDR6, 1720 МГц / 2725 МГц, 2048sp, 32 RT-ядер, трассировка лучей, 128 бит, 2 слота, питание 8 pin, HDMI, DisplayPort",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/radeon1.webp"]
+  },
+  {
+    "id": "5116357",
+    "title": "Акустика Harman/Kardon SoundSticks 5 (белый)",
+    "category": "computers",
+    "price": "1499,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "настольная (полочная), 2.1, мощность (RMS) 190 Вт, 40-20000 Гц, пластик, Bluetooth 5.4, подсветка",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/harman-white1.webp"]
+  },
+  {
+    "id": "2165037",
+    "title": "Графический монитор Huion Kamvas 13 (космический черный)",
+    "category": "computers",
+    "price": "1160,70",
+    "discount": "16",
+    "priceDiscount": "979,00",
+    "description": "проводное подключение, перо (стилус), 5080 lpi, уровней давления: 8192, экран 13.3' 1920 x 1080, интерфейс USB Type-C",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/computers/huion1.webp"]
+  },
+
+
+
+
+
+  {
+    "id": "4743998",
+    "title": "Телефон HONOR X8c ABR-LX1 8GB/128GB международная версия (зеленый)",
+    "category": "electronics",
+    "price": "588,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Android, экран 6.7' AMOLED (1080x2412) 120 Гц, Qualcomm Snapdragon 685, ОЗУ 8 ГБ, память 128 ГБ, камера 108 Мп, аккумулятор 5000 мАч, моноблок, влагозащита IP64",
+    "badge": "В наличии",
+    "rating": 4.4,
+    "images": ["/assets/electronics/electronic1.webp"]
+  },
+  {
+    "id": "4732446",
+    "title": "Электровелосипед Shtenli Zsun Model F8 10.4А",
+    "category": "electronics",
+    "price": "1330,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "городской, мощность: 400 Вт, максимальная скорость на моторе: 35 км/ч, материал рамы: сталь, складная рама, колеса 14', вилка амортизационная, тормоза дисковый механический + дисковый механический",
+    "badge": "В наличии",
+    "rating":3.5,
+    "images": ["/assets/electronics/electronic2.webp"]
+  },
+  {
+    "id": "5012406",
+    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8",
+    "category": "electronics",
+    "price": "780,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "взрослый/подростковый (макс. 130 кг), до 25 км/ч, мощность 350 Вт, запас хода 25 км, аккумулятор 7.8 А·ч, передний привод, колеса 8.5'/8.5', вес 10.5 кг",
+    "badge": "В наличии",
+    "rating": 2,
+    "images": ["/assets/electronics/electronic3.webp"]
+  },
+  {
+    "id": "5012411",
+    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8 (с сиденьем и амортизаторами)",
+    "category": "electronics",
+    "price": "1080,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "взрослый/подростковый (макс. 130 кг), до 25 км/ч, мощность 350 Вт, запас хода 25 км, аккумулятор 7.8 А·ч, передний привод, колеса 8.5'/8.5', вес 10.5 кг",
+    "badge": "В наличии",
+    "rating": 2,
+    "images": ["/assets/electronics/electronic3.webp"]
+  },
+  {
+    "id": "5012410",
+    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8 (с амортизаторами)",
+    "category": "electronics",
+    "price": "880,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "взрослый/подростковый (макс. 130 кг), до 25 км/ч, мощность 350 Вт, запас хода 25 км, аккумулятор 7.8 А·ч, передний привод, колеса 8.5'/8.5', вес 10.5 кг",
+    "badge": "В наличии",
+    "rating": 2,
+    "images": ["/assets/electronics/electronic3.webp"]
+  },
+  {
+    "id": "5012408",
+    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8 (с сиденьем)",
+    "category": "electronics",
+    "price": "980,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "взрослый/подростковый (макс. 130 кг), до 25 км/ч, мощность 350 Вт, запас хода 25 км, аккумулятор 7.8 А·ч, передний привод, колеса 8.5'/8.5', вес 10.5 кг",
+    "badge": "В наличии",
+    "rating": 2,
+    "images": ["/assets/electronics/electronic3.webp"]
+  },
+
+
+
+
+
+
+  {
+    "id": "4941856",
+    "title": "Варочная панель Tuvio HIS48FBB1",
+    "category": "appliances",
+    "price": "409,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "индукционная на 4 конфорки, cтеклокерамика, мощность: 7000 Вт, независимая установка, размеры (ШхГ): 59x52 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance1.webp"]
+  },
+  {
+    "id": "4824693",
+    "title": "Вертикальный моющий пылесос Dreame H12 Pro FlexReach Wet and Dry Vacuum",
+    "category": "appliances",
+    "price": "1259,90",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "вертикальный моющий, аккумулятор, потребление: 400 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance2.webp"]
+  },
+  {
+    "id": "4965438",
+    "title": "Погружной блендер Braun MQ50202M",
+    "category": "appliances",
+    "price": "339,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "1000 Вт, 21 скорость, многоступенчатая регулировка скорости",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance3.webp"]
+  },
+  {
+    "id": "4965600",
+    "title": "Вертикальный моющий пылесос Karcher FCV 4 Extra+ 1.056-134.0",
+    "category": "appliances",
+    "price": "1511,00",
+    "discount": "44",
+    "priceDiscount": "849,00",
+    "description": "вертикальный моющий, аккумулятор, потребление: 180 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance4.webp"]
+  },
+  {
+    "id": "5013048",
+    "title": "Вертикальный моющий пылесос Tefal X-Clean GF5736F4",
+    "category": "appliances",
+    "price": "1599,00 ",
+    "discount": "9",
+    "priceDiscount": "1459,00",
+    "description": "вертикальный моющий, аккумулятор, потребление: 250 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой, шум 79 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance5.webp"]
+  },
+  {
+    "id": "4965600",
+    "title": "Вертикальный моющий пылесос Karcher FCV 4 Extra+ 1.056-134.0",
+    "category": "appliances",
+    "price": "1511,00",
+    "discount": "44",
+    "priceDiscount": "849,00",
+    "description": "вертикальный моющий, аккумулятор, потребление: 180 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance6.webp"]
+  },
+  {
+    "id": "5013048",
+    "title": "Вертикальный моющий пылесос Tefal X-Clean GF5736F4",
+    "category": "appliances",
+    "price": "1599,00",
+    "discount": "9",
+    "priceDiscount": "1459,00",
+    "description": "вертикальный моющий, аккумулятор, потребление: 250 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой, шум 79 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance7.webp"]
+  },
+  {
+    "id": "4738073",
+    "title": "Вертикальный моющий пылесос Tefal X-Clean 4 GF5035F0",
+    "category": "appliances",
+    "price": "1262,21",
+    "discount": "13",
+    "priceDiscount": "1099,00",
+    "description": "вертикальный моющий, аккумулятор, потребление: 200 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой, шум 79 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance8.webp"]
+  },
+  {
+    "id": "4997185",
+    "title": "Пылесос Philips 7000-serie AquaTrio XW7264/11",
+    "category": "appliances",
+    "price": "1789,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "вертикальный/вертикальный моющий/вертикальный моющий 2-в-1, аккумулятор, потребление: 160 Вт, регулировка мощности, турбощетка, шум 75 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance9.webp"]
+  },
+  {
+    "id": "4559291",
+    "title": "Пылесос Tefal X-Force Flex 13.60 TY9AC1WO",
+    "category": "appliances",
+    "price": "1509,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "вертикальный/вертикальный с влажной уборкой, аккумулятор, регулировка мощности, турбощетка, станция для хранения с зарядкой, шум 83 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance10.webp"]
+  },
+  {
+    "id": "4559291",
+    "title": "Пылесос Tefal X-Force Flex 13.60 TY9AC1WO",
+    "category": "appliances",
+    "price": "1509,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "вертикальный/вертикальный с влажной уборкой, аккумулятор, регулировка мощности, турбощетка, станция для хранения с зарядкой, шум 83 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": ["/assets/appliances/appliance10.webp"]
+  }
+]
