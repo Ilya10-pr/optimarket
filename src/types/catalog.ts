@@ -1,3 +1,9 @@
+export type ProductReview = {
+  author: string
+  stars: number
+  text: string
+}
+
 /** То, что после нормализации уходит в `ProductCard` */
 export type CatalogProduct = {
   id?: string
@@ -16,4 +22,5 @@ export type CatalogProduct = {
    * `null`, отсутствие поля → в карточке «нет отзывов».
    */
   rating?: number | null
+  reviews?: ProductReview[]
 }

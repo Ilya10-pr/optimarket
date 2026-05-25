@@ -1,4 +1,4 @@
-import type { CatalogProduct } from "../types/catalog"
+import type { CatalogProduct, ProductReview } from "../types/catalog"
 import { resolveCatalogCategory } from "../data/categories"
 
 export function firstImageFromArray(images: unknown): string | undefined {
@@ -22,6 +22,24 @@ export function parseRating(raw: unknown): number | null | undefined {
     if (Number.isFinite(n)) return n
   }
   return undefined
+}
+
+function parseReviews(raw: unknown): ProductReview[] | undefined {
+  if (!Array.isArray(raw)) return undefined
+  const reviews: ProductReview[] = []
+  for (const entry of raw) {
+    if (!entry || typeof entry !== "object") continue
+    const o = entry as Record<string, unknown>
+    const author = typeof o.author === "string" ? o.author.trim() : ""
+    const text = typeof o.text === "string" ? o.text.trim() : ""
+    const stars =
+      typeof o.stars === "number" && Number.isFinite(o.stars)
+        ? Math.min(5, Math.max(1, Math.round(o.stars)))
+        : null
+    if (!author || !text || stars === null) continue
+    reviews.push({ author, stars, text })
+  }
+  return reviews.length > 0 ? reviews : undefined
 }
 
 export function normalizeProduct(
@@ -57,6 +75,9 @@ export function normalizeProduct(
 
   const ratingParsed = parseRating(o.rating)
   if (ratingParsed !== undefined) item.rating = ratingParsed
+
+  const reviewsParsed = parseReviews(o.reviews)
+  if (reviewsParsed) item.reviews = reviewsParsed
 
   const discRaw = typeof o.discount === "string" ? o.discount.trim() : ""
   const pdRaw =

@@ -1,21 +1,23 @@
 import { Logo } from "../ui/Logo"
 
 const links = [
-  { href: "#categories", label: "Категории" },
   { href: "#catalog", label: "Каталог" },
+  { href: "#working-hours", label: "Режим работы" },
   { href: "#about", label: "О нас" },
-  { href: "#contacts", label: "Контакты" },
 ]
 
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-void/90 backdrop-blur-xl">
-      <div className="section-shell flex h-16 items-center justify-between gap-4 sm:h-[4.25rem]">
+      <div className="section-shell flex flex-wrap items-center justify-between gap-x-4 gap-y-3 py-3 lg:py-0 lg:h-[4.25rem]">
+        {/* Logo */}
         <a href="#" className="shrink-0 outline-none">
           <Logo />
         </a>
+
+        {/* Navigation links — on <1000px moves to bottom row, full width, centered */}
         <nav
-          className="hidden items-center gap-4 lg:gap-6 xl:gap-8 md:flex"
+          className="flex items-center justify-center gap-4 max-[1000px]:order-last max-[1000px]:w-full max-[1000px]:justify-center lg:gap-6 xl:gap-8"
           aria-label="Основная навигация"
         >
           {links.map((item) => (
@@ -28,11 +30,19 @@ export function Navbar() {
             </a>
           ))}
         </nav>
+
+        {/* Right side: Phone + Button */}
         <div className="flex items-center gap-2 sm:gap-3">
-          <a href="#contacts" className="btn-ghost hidden sm:inline-flex">
-            Связаться
+          <a
+            href="tel:+375292372227"
+            className="btn-ghost inline-flex whitespace-nowrap max-[420px]:text-[10px]"
+          >
+            +375 (29) 237-22-27
           </a>
-          <a href="#catalog" className="btn-primary text-xs sm:text-sm">
+          <a
+            href="#catalog"
+            className="btn-primary text-xs sm:text-sm max-[700px]:hidden"
+          >
             Смотреть товары
           </a>
         </div>

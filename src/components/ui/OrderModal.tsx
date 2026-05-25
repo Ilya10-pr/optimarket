@@ -2,6 +2,28 @@ import { useEffect, useState } from "react"
 import type { CatalogProduct } from "../../types/catalog"
 import { BelarusRubleGlyph } from "./BelarusRubleGlyph"
 
+function StarCell({ filled }: { filled: boolean }) {
+  return (
+    <span
+      className={`text-[0.95em] leading-none ${filled ? "text-blaze" : "text-mist/30"}`}
+      aria-hidden
+    >
+      ★
+    </span>
+  )
+}
+
+function StarsRow({ value }: { value: number }) {
+  const stars = Math.min(5, Math.max(0, Math.round(value)))
+  return (
+    <span className="flex gap-px">
+      {[1, 2, 3, 4, 5].map((i) => (
+        <StarCell key={i} filled={i <= stars} />
+      ))}
+    </span>
+  )
+}
+
 type OrderModalProps = {
   product: CatalogProduct | null
   onClose: () => void
@@ -92,19 +114,22 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4"
+      className="fixed inset-0 z-[100] flex items-end justify-center bg-black/70 p-3 sm:items-center sm:p-4"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-labelledby="order-modal-title"
     >
       <div
-        className="surface-card w-full max-w-5xl overflow-hidden rounded-[var(--radius-card)]"
+        className="surface-card flex max-h-[min(100dvh-1.5rem,56rem)] w-full max-w-5xl flex-col overflow-hidden rounded-[var(--radius-card)] sm:max-h-[min(100dvh-2rem,56rem)]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="flex items-center justify-between border-b border-ink/10 px-6 py-4">
-          <h2 id="order-modal-title" className="font-display text-2xl text-ink">
+        <div className="flex shrink-0 items-center justify-between border-b border-ink/10 px-4 py-3 sm:px-6 sm:py-4">
+          <h2
+            id="order-modal-title"
+            className="font-display text-xl text-ink sm:text-2xl"
+          >
             Оформление заказа
           </h2>
           <button
@@ -117,19 +142,20 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
           </button>
         </div>
 
-        <div className="grid gap-8 p-6 md:grid-cols-2 lg:gap-10">
+        <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain">
+          <div className="grid gap-5 p-4 sm:gap-6 sm:p-6 md:grid-cols-2 lg:gap-8">
           {/* LEFT: Product info */}
-          <div className="space-y-6">
+          <div className="space-y-4 sm:space-y-5">
             {product.image ? (
               <div className="overflow-hidden rounded-[var(--radius-card)] border border-ink/10 bg-panel-muted">
                 <img
                   src={product.image}
                   alt={product.title}
-                  className="h-auto w-full object-contain"
+                  className="mx-auto max-h-32 w-full object-contain sm:max-h-40 md:max-h-44"
                 />
               </div>
             ) : (
-              <div className="flex h-48 items-center justify-center rounded-[var(--radius-card)] border border-ink/10 bg-panel-muted text-mist">
+              <div className="flex h-28 items-center justify-center rounded-[var(--radius-card)] border border-ink/10 bg-panel-muted text-mist sm:h-36">
                 Нет фото
               </div>
             )}
@@ -140,7 +166,7 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
                   <p className="text-xs uppercase tracking-[0.2em] text-mist">
                     {product.category}
                   </p>
-                  <h3 className="font-display text-2xl leading-tight text-ink">
+                  <h3 className="font-display text-lg leading-tight text-ink sm:text-xl md:text-2xl">
                     {product.title}
                   </h3>
                 </div>
@@ -173,23 +199,64 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
 
             {product.description ? (
               <div className="prose prose-sm max-w-none text-mist">
-                <p className="whitespace-pre-line leading-relaxed">
+                <p className="line-clamp-4 whitespace-pre-line text-sm leading-relaxed sm:line-clamp-none sm:text-base">
                   {product.description}
                 </p>
               </div>
             ) : null}
 
             {product.rating != null && Number.isFinite(product.rating) ? (
-              <div className="text-sm text-mist">
-                Рейтинг: <span className="font-medium text-ink">{product.rating}</span> / 5
+              <div className="space-y-4 border-t border-ink/10 pt-4">
+                <div className="flex flex-wrap items-center gap-2">
+                  <StarsRow value={product.rating} />
+                  <span className="text-sm font-medium tabular-nums text-ink">
+                    {Number.isInteger(product.rating)
+                      ? product.rating
+                      : product.rating.toFixed(1)}{" "}
+                    / 5
+                  </span>
+                  {product.reviews?.length ? (
+                    <span className="text-sm text-mist">
+                      · {product.reviews.length}{" "}
+                      {product.reviews.length === 1
+                        ? "отзыв"
+                        : product.reviews.length < 5
+                          ? "отзыва"
+                          : "отзывов"}
+                    </span>
+                  ) : null}
+                </div>
+
+                {product.reviews?.length ? (
+                  <ul className="max-h-36 space-y-2 overflow-y-auto pr-1 sm:max-h-44 md:max-h-52">
+                    {product.reviews.map((review, i) => (
+                      <li
+                        key={`${review.author}-${i}`}
+                        className="rounded-[var(--radius-card)] border border-ink/10 bg-panel-muted/50 px-3 py-2.5"
+                      >
+                        <div className="flex flex-wrap items-center justify-between gap-2">
+                          <span className="text-sm font-medium text-ink">
+                            {review.author}
+                          </span>
+                          <StarsRow value={review.stars} />
+                        </div>
+                        <p className="mt-1.5 text-sm leading-relaxed text-mist">
+                          {review.text}
+                        </p>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
               </div>
             ) : (
-              <div className="text-sm text-mist">Нет отзывов</div>
+              <div className="border-t border-ink/10 pt-4 text-sm text-mist">
+                Нет отзывов
+              </div>
             )}
           </div>
 
           {/* RIGHT: Form */}
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-5">
             <div className="space-y-1.5">
               <label className="text-sm font-medium text-ink">Ваше имя (необязательно)</label>
               <input
@@ -269,13 +336,14 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
               disabled={submitting}
               className="btn-primary mt-2 w-full disabled:cursor-not-allowed disabled:opacity-70"
             >
-              {submitting ? "Отправляем заказ..." : "Отправить заказ в Telegram"}
+              {submitting ? "Отправляем заказ..." : "Заказать"}
             </button>
 
             <p className="text-center text-xs text-mist">
               Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.
             </p>
           </form>
+          </div>
         </div>
       </div>
     </div>

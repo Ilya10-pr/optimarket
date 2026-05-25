@@ -6,7 +6,7 @@ export function Footer() {
         <p>
           © {year} Optimarket. УНП 193956057.
         </p>
-        <p className="mx-auto max-w-3xl leading-relaxed">
+        <p className="mx-auto max-w-3xl wrap-break-word leading-relaxed">
           Юридический адрес: 220007, г.&nbsp;Минск, ул.&nbsp;Быховская, д.&nbsp;35,
           пом.&nbsp;11Н
         </p>

@@ -13,8 +13,8 @@ const paymentMethods = ["Наличный расчёт", "Банковская �
 export function StoreLegalSection() {
   return (
     <section
-      id="requisites"
-      className="scroll-mt-20 border-y border-ink/10 bg-void py-10 sm:py-14"
+      id="working-hours"
+      className="scroll-mt-[4.25rem] border-y border-ink/10 bg-void py-10 sm:py-14"
     >
       <div className="section-shell space-y-16">
         <div className="grid gap-12 lg:grid-cols-2">
@@ -30,7 +30,7 @@ export function StoreLegalSection() {
               {orderSchedule.map((row) => (
                 <li
                   key={row.day}
-                  className="flex items-center justify-between gap-4 px-5 py-3.5 text-sm"
+                  className="flex items-center justify-between gap-2 px-4 py-3 text-sm sm:gap-4 sm:px-5 sm:py-3.5"
                 >
                   <span className="font-medium text-ink">{row.day}</span>
                   <span className="tabular-nums text-mist">{row.hours}</span>
@@ -61,9 +61,9 @@ export function StoreLegalSection() {
           <h2 className="heading-accent mb-6 font-display text-2xl text-ink sm:text-3xl">
             Сведения о продавце
           </h2>
-          <div className="space-y-4 text-sm leading-relaxed text-mist sm:text-[0.9375rem]">
+          <div className="space-y-4 wrap-break-word text-sm leading-relaxed text-mist sm:text-[0.9375rem]">
             <p className="text-base font-semibold text-ink">
-              Общество с ограниченной ответственностью «Optimarket»
+              Общество с ограниченной ответственностью «Клуб Ривьера»
             </p>
             <p>
               <span className="font-medium text-ink">Юридический адрес: </span>

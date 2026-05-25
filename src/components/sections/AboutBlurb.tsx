@@ -29,7 +29,7 @@ export function AboutBlurb() {
           </ul>
         </div>
         <div className="surface-card p-8 sm:p-10">
-          <blockquote className="font-display text-2xl leading-snug text-ink sm:text-[1.65rem]">
+          <blockquote className="font-display wrap-break-word text-xl leading-snug text-ink sm:text-2xl sm:text-[1.65rem]">
             «Нам важно, чтобы вы знали, кто продаёт товар, как с нами связаться и
             когда обрабатываются заказы — прозрачно и по правилам торгового
             реестра.»

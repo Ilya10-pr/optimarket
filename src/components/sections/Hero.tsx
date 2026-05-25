@@ -4,7 +4,7 @@ export function Hero() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_-20%,oklch(0.52_0.12_264_/_0.12),transparent),radial-gradient(ellipse_55%_45%_at_95%_45%,oklch(0.68_0.08_256_/_0.09),transparent)]" />
       <div className="section-shell section-y relative grid gap-12 lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:items-center">
         <div className="space-y-8">
-          <p className="inline-flex items-center gap-2 rounded-[var(--radius-pill)] border border-ink/10 bg-panel px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.25em] text-ember shadow-sm">
+          <p className="inline-flex items-center gap-2 rounded-[var(--radius-pill)] border border-ink/10 bg-panel px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-ember shadow-sm sm:px-4 sm:py-1.5 sm:text-[11px]">
             Optimarket · интернет‑магазин
           </p>
           <div className="space-y-4">
@@ -23,9 +23,6 @@ export function Hero() {
           <div className="flex flex-wrap gap-3">
             <a href="#catalog" className="btn-primary">
               Перейти в каталог
-            </a>
-            <a href="#contacts" className="btn-ghost">
-              Связаться с нами
             </a>
           </div>
 
@@ -50,7 +47,7 @@ export function Hero() {
                   </p>
                 </div>
                 <div className="rounded-xl border border-ink/10 bg-panel/95 p-4 backdrop-blur-md shadow-sm">
-                  <div className="flex items-center justify-between gap-4">
+                  <div className="flex flex-wrap items-center justify-between gap-3 sm:gap-4">
                     <div>
                       <p className="text-xs text-mist">Оплата</p>
                       <p className="font-display text-lg text-ink sm:text-xl">
