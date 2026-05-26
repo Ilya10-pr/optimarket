@@ -72,7 +72,7 @@ export function StoreLegalSection() {
             <p>
               <span className="font-medium text-ink">УНП </span>193956057
             </p>
-            <p>
+            {/* <p>
               <span className="font-medium text-ink">
                 Свидетельство о регистрации{' '}
               </span>
@@ -91,7 +91,7 @@ export function StoreLegalSection() {
             <p>
               <span className="font-medium text-ink">Номер регистрации: </span>
               772076
-            </p>
+            </p> */}
             <p>
               <span className="font-medium text-ink">
                 Местонахождение книги замечаний и предложений:{' '}
