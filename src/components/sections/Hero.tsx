@@ -28,34 +28,55 @@ export function Hero() {
 
         </div>
         <div className="relative">
-          <div className="surface-card relative mx-auto max-w-md p-8 lg:mx-0 lg:max-w-none">
+          <div className="surface-card relative mx-auto max-w-md p-5 sm:p-6 lg:mx-0 lg:max-w-none">
             <div className="absolute -right-6 -top-6 hidden size-28 rounded-full bg-blaze/20 blur-3xl lg:block" />
             <div className="absolute -bottom-10 -left-10 hidden size-40 rounded-full bg-ember/15 blur-3xl lg:block" />
-            <div className="relative aspect-square overflow-hidden rounded-2xl bg-linear-to-br from-panel via-void to-panel-muted ring-1 ring-ink/10">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_30%,oklch(0.55_0.12_262_/_0.1),transparent_60%)]" />
-              <div className="flex h-full flex-col justify-between p-6 sm:p-8">
-                <div>
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.3em] text-mist">
-                    С чего начать
-                  </p>
-                  <p className="mt-4 font-display text-3xl text-ink sm:text-4xl">
-                    Категории на каждый день
-                  </p>
-                  <p className="mt-3 max-w-[16rem] text-sm leading-relaxed text-mist">
-                    От сетей и ПК до детских товаров и ухода за собой — выберите
-                    раздел выше и листайте подборки в каталоге.
+            <div className="relative overflow-hidden rounded-2xl bg-linear-to-br from-panel via-void to-panel-muted ring-1 ring-ink/10">
+              <div className="relative aspect-[16/7] overflow-hidden sm:aspect-[16/6]">
+                <img
+                  src="/lego.webp"
+                  alt="Конструкторы LEGO"
+                  className="h-full w-full object-cover object-center"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-black/55 via-black/10 to-transparent" />
+                <div className="absolute inset-x-0 bottom-0 p-3 sm:p-4">
+                  <p className="inline-flex items-center rounded-[var(--radius-pill)] border border-white/20 bg-black/30 px-2.5 py-0.5 text-[10px] font-semibold uppercase tracking-[0.22em] text-snow backdrop-blur-md">
+                    Конструкторы LEGO
                   </p>
                 </div>
-                <div className="rounded-xl border border-ink/10 bg-panel/95 p-4 backdrop-blur-md shadow-sm">
-                  <div className="flex flex-wrap items-center justify-between gap-3 sm:gap-4">
+              </div>
+
+              <div className="relative space-y-3 p-4 sm:p-5">
+                <div className="absolute inset-x-0 top-0 h-px bg-linear-to-r from-transparent via-blaze/35 to-transparent" />
+                <div>
+                  <p className="text-[10px] font-semibold uppercase tracking-[0.28em] text-ember">
+                    Выгодное предложение
+                  </p>
+                  <p className="mt-2 font-display text-xl leading-tight text-ink sm:text-2xl">
+                    Заказывайте LEGO по{" "}
+                    <span className="bg-linear-to-r from-blaze via-glow to-ember bg-clip-text text-transparent">
+                      самым низким ценам
+                    </span>
+                  </p>
+                  <p className="mt-2  text-sm leading-snug text-mist">
+                    Оригинальные наборы Star Wars, Technic, City, Icons и другие
+                    серии — поможем подобрать модель и быстро оформим заказ с
+                    доставкой по Беларуси.
+                  </p>
+                </div>
+
+                <div className="rounded-xl border border-ink/10 bg-panel/95 p-3 backdrop-blur-md shadow-sm">
+                  <div className="flex flex-wrap items-center justify-between gap-2 sm:gap-3">
                     <div>
-                      <p className="text-xs text-mist">Оплата</p>
-                      <p className="font-display text-lg text-ink sm:text-xl">
-                        карта и наличные
+                      <p className="text-[11px] text-mist">Оригинал · консультация · доставка</p>
+                      <p className="font-display text-base text-ink sm:text-lg">
+                        выгоднее, чем в обычных магазинах
                       </p>
                     </div>
-                    <a href="#catalog" className="btn-primary shrink-0 px-4 py-2 text-xs">
-                      В каталог
+                    <a href="#catalog" className="btn-primary shrink-0 px-3.5 py-1.5 text-xs">
+                      Смотреть наборы
                     </a>
                   </div>
                 </div>

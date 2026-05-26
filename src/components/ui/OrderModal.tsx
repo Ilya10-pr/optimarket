@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { createPortal } from "react-dom"
 import type { CatalogProduct } from "../../types/catalog"
 import { BelarusRubleGlyph } from "./BelarusRubleGlyph"
 
@@ -38,6 +39,20 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
+  const [portalTarget, setPortalTarget] = useState<HTMLElement | null>(null)
+
+  // Создаём контейнер портала только когда модалка открыта
+  useEffect(() => {
+    if (!product) return
+    const el = document.createElement("div")
+    document.body.appendChild(el)
+    setPortalTarget(el)
+    return () => {
+      el.remove()
+      setPortalTarget(null)
+    }
+  }, [product])
+
   // Close on ESC
   useEffect(() => {
     if (!product) return
@@ -54,7 +69,7 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
     }
   }, [product, onClose])
 
-  if (!product) return null
+  if (!product || !portalTarget) return null
 
   const hasSale =
     Boolean(product.discount?.trim()) &&
@@ -112,7 +127,7 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
     }
   }
 
-  return (
+  const modal = (
     <div
       className="fixed inset-0 z-[100] flex items-end justify-center bg-black/70 p-3 sm:items-center sm:p-4"
       onClick={onClose}
@@ -348,4 +363,6 @@ export function OrderModal({ product, onClose }: OrderModalProps) {
       </div>
     </div>
   )
+
+  return createPortal(modal, portalTarget)
 }

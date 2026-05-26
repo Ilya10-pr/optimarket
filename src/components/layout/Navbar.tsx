@@ -1,4 +1,5 @@
 import { Logo } from "../ui/Logo"
+import { ProductSearch } from "../ui/ProductSearch"
 
 const links = [
   { href: "#catalog", label: "Каталог" },
@@ -9,11 +10,13 @@ const links = [
 export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-ink/10 bg-void/90 backdrop-blur-xl">
-      <div className="section-shell flex flex-wrap items-center justify-between gap-x-4 gap-y-3 py-3 lg:py-0 lg:h-[4.25rem]">
+      <div className="section-shell max-w-7xl flex flex-wrap items-center justify-between gap-x-4 gap-y-3 py-3 lg:py-0 lg:h-[4.25rem]">
         {/* Logo */}
         <a href="#" className="shrink-0 outline-none">
           <Logo />
         </a>
+
+        <ProductSearch className="order-2 w-full min-[900px]:order-none min-[900px]:max-w-md min-[900px]:flex-1 min-[900px]:w-auto" />
 
         {/* Navigation links — on <1000px moves to bottom row, full width, centered */}
         <nav

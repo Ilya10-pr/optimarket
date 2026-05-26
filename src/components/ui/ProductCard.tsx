@@ -21,10 +21,12 @@ function PriceAmount({
   raw,
   className,
   ariaHiddenTotal,
+  strikethrough = false,
 }: {
   raw: string
   className?: string
   ariaHiddenTotal?: boolean
+  strikethrough?: boolean
 }) {
   const trimmed = raw.trim()
   if (trimmed === "" || trimmed === "—") {
@@ -34,12 +36,22 @@ function PriceAmount({
   const label = `${numPart.replace(/\s+/gu, " ")} белорусских рублей`
   return (
     <span
-      className={`inline-flex items-baseline gap-0.5 ${className ?? ""}`}
+      className={`relative inline-flex items-baseline gap-0.5 ${
+        strikethrough ? "text-sm font-medium text-mist/80" : ""
+      } ${className ?? ""}`}
       aria-label={ariaHiddenTotal ? undefined : label}
       aria-hidden={ariaHiddenTotal}
     >
       <span className="tabular-nums">{numPart}</span>
-      <BelarusRubleGlyph className="-translate-y-px opacity-95" />
+      <BelarusRubleGlyph
+        className={strikethrough ? "opacity-80" : "-translate-y-px opacity-95"}
+      />
+      {strikethrough ? (
+        <span
+          className="pointer-events-none absolute inset-x-0 top-1/2 h-0.5 -translate-y-1/2 rounded-full bg-ember/80"
+          aria-hidden
+        />
+      ) : null}
     </span>
   )
 }
@@ -173,9 +185,7 @@ export function ProductCard({
           <div className="shrink-0 text-right leading-tight">
             {hasSale ? (
               <div className="flex flex-col items-end gap-1">
-                <span className="text-sm font-medium text-mist line-through decoration-ember/70 [&_*]:text-inherit">
-                  <PriceAmount raw={price} ariaHiddenTotal />
-                </span>
+                <PriceAmount raw={price} ariaHiddenTotal strikethrough />
                 <span className="rounded-lg bg-blaze/10 px-3 py-1 text-sm font-semibold tabular-nums text-ember ring-1 ring-blaze/20 [&_*]:tabular-nums">
                   <PriceAmount raw={priceDiscount!.trim()} />
                 </span>
