@@ -5,6 +5,10 @@
 //   TELEGRAM_CHAT_ID = your personal chat id (get via @userinfobot)
 
 export default async function handler(req, res) {
+
+
+  console.log("SEND-ORDER FUNCTION CALLED");
+  console.log("METHOD:", req.method);
   if (req.method !== "POST") {
     res.setHeader("Allow", "POST")
     return res.status(405).end("Method Not Allowed")
@@ -50,7 +54,8 @@ export default async function handler(req, res) {
 
     const text = lines.join("\n")
 
-    const tgUrl = `https://api.telegram.org/bot${token}/sendMessage`
+const tgUrl = `https://api.telegram.org/bot${token}/sendMessage`
+
 
     const tgResponse = await fetch(tgUrl, {
       method: "POST",
