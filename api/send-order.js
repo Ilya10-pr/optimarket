@@ -10,8 +10,11 @@ export default async function handler(req, res) {
     return res.status(405).end("Method Not Allowed")
   }
 
+  console.log('1');
+
   const token = process.env.TELEGRAM_BOT_TOKEN
   const chatId = process.env.TELEGRAM_CHAT_ID
+
 
   if (!token || !chatId) {
     console.error("❌ Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID in environment variables")
@@ -60,8 +63,12 @@ export default async function handler(req, res) {
       }),
     })
 
+    console.log('2');
+
+
     if (!tgResponse.ok) {
       const tgError = await tgResponse.text()
+      console.log('3');
       console.error("❌ Telegram API error:", tgError)
       return res.status(502).json({
         error: "Failed to send message to Telegram",

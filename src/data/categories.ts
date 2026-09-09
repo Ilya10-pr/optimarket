@@ -3,6 +3,7 @@ export const STORE_CATEGORIES = [
   { id: "electronics", label: "Электроника" },
   { id: "appliances", label: "Бытовая техника" },
   { id: "construction", label: "Стройка и ремонт" },
+  { id: "computers", label: "Компьютеры" },
 ] as const
 
 export type StoreCategoryId = (typeof STORE_CATEGORIES)[number]["id"]
