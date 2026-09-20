@@ -6,6 +6,10 @@ export const STORE_CATEGORIES = [
   { id: "computers", label: "Компьютеры" },
 ] as const
 
+
+
+
+
 export type StoreCategoryId = (typeof STORE_CATEGORIES)[number]["id"]
 
 const SLUG_SET = new Set<string>(STORE_CATEGORIES.map((c) => c.id))
