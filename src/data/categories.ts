@@ -8,7 +8,7 @@ export const STORE_CATEGORIES = [
 
 
 
-
+ 
 
 export type StoreCategoryId = (typeof STORE_CATEGORIES)[number]["id"]
 
