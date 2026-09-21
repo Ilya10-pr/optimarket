@@ -1,7 +1,7 @@
 [
   {
     "id": "5071801",
-    "title": "Ноутбук Chuwi CoreBook Air Plus CWI654-R5660016G512G",
+    "title": "Chuwi CoreBook Air Plus CWI654-R5660016G512G",
     "category": "computers",
     "price": "1950,00",
     "discount": "10%",
@@ -42,12 +42,12 @@
   },
   {
     "id": "1873961",
-    "title": "Корпус be quiet! PURE BASE 500DX BGW37",
+    "title": "PURE BASE 500DX BGW37",
     "category": "computers",
     "price": "549,99",
     "discount": "",
     "priceDiscount": "",
-    "description": "Mid Tower, БП отсутствует, для плат ATX/micro-ATX/mini-ITX, с 3 вентиляторами в комплекте, окно: закаленное стекло, видеокарта до 369 мм, охлаждение ЦП до 190 мм, пылевой фильтр - сверху/спереди/снизу, 1xUSB-A 3.2 5Гбит/с, 1xUSB-C 3.2 10Гбит/с, цвет черный",
+    "description": "Корпус Mid Tower, БП отсутствует, для плат ATX/micro-ATX/mini-ITX, с 3 вентиляторами в комплекте, окно: закаленное стекло, видеокарта до 369 мм, охлаждение ЦП до 190 мм, пылевой фильтр - сверху/спереди/снизу, 1xUSB-A 3.2 5Гбит/с, 1xUSB-C 3.2 10Гбит/с, цвет черный",
     "badge": "В наличии",
     "rating": 4.5,
     "images": [
@@ -83,7 +83,7 @@
   },
   {
     "id": "4908982",
-    "title": "Ноутбук Chuwi CoreBook X CWI570-R5743016G512",
+    "title": "Chuwi CoreBook X CWI570-R5743016G512",
     "category": "computers",
     "price": "1599,00",
     "discount": "",
@@ -124,7 +124,7 @@
   },
   {
     "id": "5116361",
-    "title": "Акустика Harman/Kardon SoundSticks 5 (черный)",
+    "title": "Harman/Kardon SoundSticks 5 (черный)",
     "category": "computers",
     "price": "1499,00",
     "discount": "",
@@ -138,7 +138,7 @@
   },
   {
     "id": "3859509",
-    "title": "Ноутбук Horizont H-book 14 МАК4 T32E3W",
+    "title": "Horizont H-book 14 МАК4 T32E3W",
     "category": "computers",
     "price": "1059,00",
     "discount": "",
@@ -152,7 +152,7 @@
   },
   {
     "id": "4044710",
-    "title": "Видеокарта Sapphire Pulse Radeon RX 7600 8GB 11324-01-20G",
+    "title": "Sapphire Pulse Radeon RX 7600 8GB 11324-01-20G",
     "category": "computers",
     "price": "997,80",
     "discount": "",
@@ -193,7 +193,7 @@
   },
   {
     "id": "4609033",
-    "title": "Оперативная память Samsung 8ГБ DDR5 SODIMM 5600 МГц M425R1GB4BB0-CWMOD",
+    "title": "Samsung 8ГБ DDR5 SODIMM 5600 МГц M425R1GB4BB0-CWMOD",
     "category": "computers",
     "price": "290,00",
     "discount": "24",
@@ -207,7 +207,7 @@
   },
   {
     "id": "2886456",
-    "title": "Процессор Intel Core i7-12700",
+    "title": "Intel Core i7-12700",
     "category": "computers",
     "price": "1099,00",
     "discount": "",
@@ -248,7 +248,7 @@
   },
   {
     "id": "4868313",
-    "title": "Блок питания Corsair HX1500i CP-9020309-EU",
+    "title": "Corsair HX1500i CP-9020309-EU",
     "category": "computers",
     "price": "1339,00",
     "discount": "",
@@ -262,7 +262,7 @@
   },
   {
     "id": "4868269",
-    "title": "Блок питания Corsair RM1000e CP-9020297-EU",
+    "title": "Corsair RM1000e CP-9020297-EU",
     "category": "computers",
     "price": "599,99",
     "discount": "",
@@ -276,7 +276,7 @@
   },
   {
     "id": "4757482",
-    "title": "Видеокарта ASRock Radeon RX 7650 GRE Challenger 8GB OC RX7650GRE CL 8GO",
+    "title": "ASRock Radeon RX 7650 GRE Challenger 8GB OC RX7650GRE CL 8GO",
     "category": "computers",
     "price": "1020,00",
     "discount": "",
@@ -290,7 +290,7 @@
   },
   {
     "id": "5116357",
-    "title": "Акустика Harman/Kardon SoundSticks 5 (белый)",
+    "title": "Harman/Kardon SoundSticks 5 (белый)",
     "category": "computers",
     "price": "1499,00",
     "discount": "",
@@ -304,7 +304,7 @@
   },
   {
     "id": "2165037",
-    "title": "Графический монитор Huion Kamvas 13 (космический черный)",
+    "title": "Huion Kamvas 13 (космический черный)",
     "category": "computers",
     "price": "1160,70",
     "discount": "16",
@@ -318,7 +318,7 @@
   },
   {
     "id": "4743998",
-    "title": "Телефон HONOR X8c ABR-LX1 8GB/128GB международная версия (зеленый)",
+    "title": "HONOR X8c ABR-LX1 8GB/128GB международная версия (зеленый)",
     "category": "electronics",
     "price": "588,00",
     "discount": "",
@@ -359,7 +359,7 @@
   },
   {
     "id": "4732446",
-    "title": "Электровелосипед Shtenli Zsun Model F8 10.4А",
+      "title": "Shtenli Zsun Model F8 10.4А",
     "category": "electronics",
     "price": "1330,00",
     "discount": "",
@@ -400,7 +400,7 @@
   },
   {
     "id": "5012406",
-    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8",
+    "title": "Shtenli Model 3 GTR PROF li-on 36/7.8",
     "category": "electronics",
     "price": "780,00",
     "discount": "",
@@ -441,7 +441,7 @@
   },
   {
     "id": "5012411",
-    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8 (с сиденьем и амортизаторами)",
+    "title": "Shtenli Model 3 GTR PROF li-on 36/7.8 (с сиденьем и амортизаторами)",
     "category": "electronics",
     "price": "1080,00",
     "discount": "",
@@ -482,7 +482,7 @@
   },
   {
     "id": "5012410",
-    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8 (с амортизаторами)",
+    "title": "Shtenli Model 3 GTR PROF li-on 36/7.8 (с амортизаторами)",
     "category": "electronics",
     "price": "880,00",
     "discount": "",
@@ -523,7 +523,7 @@
   },
   {
     "id": "5012408",
-    "title": "Электросамокат Shtenli Model 3 GTR PROF li-on 36/7.8 (с сиденьем)",
+    "title": "Shtenli Model 3 GTR PROF li-on 36/7.8 (с сиденьем)",
     "category": "electronics",
     "price": "980,00",
     "discount": "",
@@ -564,7 +564,7 @@
   },
   {
     "id": "4941856",
-    "title": "Варочная панель Tuvio HIS48FBB1",
+    "title": "Tuvio HIS48FBB1",
     "category": "appliances",
     "price": "409,00",
     "discount": "",
@@ -578,7 +578,7 @@
   },
   {
     "id": "4824693",
-    "title": "Вертикальный моющий пылесос Dreame H12 Pro FlexReach Wet and Dry Vacuum",
+    "title": "Dreame H12 Pro FlexReach Wet and Dry Vacuum",
     "category": "appliances",
     "price": "1259,90",
     "discount": "",
@@ -592,7 +592,7 @@
   },
   {
     "id": "4965438",
-    "title": "Погружной блендер Braun MQ50202M",
+      "title": "Braun MQ50202M",
     "category": "appliances",
     "price": "339,00",
     "discount": "",
@@ -606,7 +606,7 @@
   },
   {
     "id": "4965620",
-    "title": "Вертикальный моющий пылесос Karcher FCV 4 Extra+ 1.056-134.0",
+    "title": "Karcher FCV 4 Extra+ 1.056-134.0",
     "category": "appliances",
     "price": "1511,00",
     "discount": "44",
@@ -620,7 +620,7 @@
   },
   {
     "id": "5013078",
-    "title": "Вертикальный моющий пылесос Tefal X-Clean GF5736F4",
+    "title": "Tefal X-Clean GF5736F4",
     "category": "appliances",
     "price": "1599,00 ",
     "discount": "9",
@@ -634,7 +634,7 @@
   },
   {
     "id": "4965670",
-    "title": "Вертикальный моющий пылесос Karcher FCV 4 Extra+ 1.056-134.0",
+    "title": "Karcher FCV 4 Extra+ 1.056-134.0",
     "category": "appliances",
     "price": "1511,00",
     "discount": "44",
@@ -648,7 +648,7 @@
   },
   {
     "id": "5013038",
-    "title": "Вертикальный моющий пылесос Tefal X-Clean GF5736F4",
+    "title": "Tefal X-Clean GF5736F4",
     "category": "appliances",
     "price": "1599,00",
     "discount": "9",
@@ -662,7 +662,7 @@
   },
   {
     "id": "4738073",
-    "title": "Вертикальный моющий пылесос Tefal X-Clean 4 GF5035F0",
+    "title": "Tefal X-Clean 4 GF5035F0",
     "category": "appliances",
     "price": "1262,21",
     "discount": "13",
@@ -676,7 +676,7 @@
   },
   {
     "id": "4997185",
-    "title": "Пылесос Philips 7000-serie AquaTrio XW7264/11",
+    "title": "Philips 7000-serie AquaTrio XW7264/11",
     "category": "appliances",
     "price": "1789,00",
     "discount": "",
@@ -690,7 +690,7 @@
   },
   {
     "id": "4559292",
-    "title": "Пылесос Tefal X-Force Flex 13.60 TY9AC1WO",
+    "title": "Tefal X-Force Flex 13.60 TY9AC1WO",
     "category": "appliances",
     "price": "1509,00",
     "discount": "",
@@ -704,7 +704,7 @@
   },
   {
     "id": "4559291",
-    "title": "Пылесос Tefal X-Force Flex 13.60 TY9AC1WO",
+    "title": "Tefal X-Force Flex 13.60 TY9AC1WO",
     "category": "appliances",
     "price": "1509,00",
     "discount": "",
@@ -717,16 +717,9 @@
     ]
   },
 
-
-
-
-
-
-
-
   {
     "id": "4760481",
-    "title": "Блок питания be quiet! Power Zone 2 750W",
+    "title": "Power Zone 2 750W",
     "category": "computers",
     "price": "589",
     "discount": "",
@@ -758,7 +751,7 @@
   },
   {
     "id": "4760592",
-    "title": "Блок питания be quiet! Power Zone 2 850W",
+    "title": "Power Zone 2 850W",
     "category": "computers",
     "price": "659",
     "discount": "",
@@ -790,7 +783,7 @@
   },
   {
     "id": "4760594",
-    "title": "Блок питания be quiet! Power Zone 2 1000W",
+    "title": "Power Zone 2 1000W",
     "category": "computers",
     "price": "799",
     "discount": "",
@@ -821,7 +814,7 @@
   },
   {
     "id": "5085971",
-    "title": "Блок питания be quiet! Power Zone 2 1200W",
+      "title": "Power Zone 2 1200W",
     "category": "computers",
     "price": "909",
     "discount": "",
@@ -852,7 +845,7 @@
   },
   {
     "id": "5351243",
-    "title": "Мини-ПК Ninkear M6 Max (AMD Ryzen 5 3500U, 8GB/256GB)",
+    "title": "Ninkear M6 Max (AMD Ryzen 5 3500U, 8GB/256GB)",
     "category": "computers",
     "price": "1099",
     "discount": "",
@@ -864,6 +857,147 @@
       "/assets/computers/mp1.webp"
     ]
 
+  },
+
+
+
+  {
+    "id": "2271304",
+    "title": "Creator 10295 Porsche 911",
+    "category": "lego",
+    "price": "549,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Creator Expert, рекомендуемый возраст 18 лет, 1458 деталей",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego1.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "5109924",
+    "title": "Editions 43022 Шлем Льюиса Хэмилтона команды Scuderia Ferrari HP",
+    "category": "lego",
+    "price": "349,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Editions, рекомендуемый возраст 14 лет, 884 детали, в собранном виде 13 x 11 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego2.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "514323",
+    "title": "Шлем Шарля Леклера команды Scuderia Ferrari HP",
+    "category": "lego",
+    "price": "339,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Editions Scuderia Ferrari HP Charles Leclerc Helmet (43014) для мальчиков, девочек и поклонников Формулы-1® в возрасте от 14 лет и старше.",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego3.jpg"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "4567513",
+    "title": "Ideas 21349 Кот в смокинге",
+    "category": "lego",
+    "price": "459,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Ideas, рекомендуемый возраст 18 лет, 1710 деталей",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego4.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "4954290",
+    "title": "Disney Валл-И и Ева",
+    "category": "lego",
+    "price": "295,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Disney, рекомендуемый возраст 18 лет, 811 деталь",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego5.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "4179579",
+    "title": "City 60367 Пассажирский самолет",
+    "category": "lego",
+    "price": "345,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "City, рекомендуемый возраст 7 лет, 913 детали",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego6.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "5057923",
+    "title": "Icons 11384 Щенок золотистого ретривера",
+    "category": "lego",
+    "price": "539,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "ICONS, рекомендуемый возраст 18 лет, 2102 детали",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego7.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "673996",
+    "title": "Medium Creative Brick Box",
+    "category": "lego",
+    "price": "139,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Classic, рекомендуемый возраст 4–99 лет, 484 детали",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego8.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "677984",
+    "title": "Large Creative Brick Box",
+    "category": "lego",
+    "price": "245,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Classic, рекомендуемый возраст 4–99 лет, 790 деталей",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/lego9.webp"
+    ],
+    "reviews": []
   }
+
+  
+  
   
 ]

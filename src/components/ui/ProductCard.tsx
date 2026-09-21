@@ -173,15 +173,12 @@ export function ProductCard({
         ) : null}
       </div>
       <div className="flex flex-1 flex-col gap-3 p-5">
-        <div className="flex items-start justify-between gap-3">
-          <div className="min-w-0">
+        <div className="flex items-start flex-col gap-3">
+          <div className="w-full flex justify-between">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-mist">
               {category}
             </p>
-            <h3 className="font-display text-xl leading-snug text-ink line-clamp-2 break-words hyphens-auto">
-              {title}
-            </h3>
-          </div>
+
           <div className="shrink-0 text-right leading-tight">
             {hasSale ? (
               <div className="flex flex-col items-end gap-1">
@@ -196,6 +193,10 @@ export function ProductCard({
               </span>
             )}
           </div>
+          </div>
+          <h3 className="font-display text-xl leading-snug text-ink line-clamp-2 break-words hyphens-auto">
+              {title}
+            </h3>
         </div>
         <RatingBlock rating={rating} />
         <p className="flex-1 min-h-0 whitespace-pre-line line-clamp-2 break-words text-sm leading-relaxed text-mist">

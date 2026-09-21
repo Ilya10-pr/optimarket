@@ -67,31 +67,25 @@ export function StoreLegalSection() {
             </p>
             <p>
               <span className="font-medium text-ink">Юридический адрес: </span>
-              220007, г.&nbsp;Минск, ул.&nbsp;Быховская, д.&nbsp;35, пом.&nbsp;11Н
+              220007, г. Минск, ул. Быховская, д. 35, пом. 11Н
+УНП 193956057
             </p>
             <p>
-              <span className="font-medium text-ink">УНП </span>193956057
-            </p>
-            {/* <p>
-              <span className="font-medium text-ink">
-                Свидетельство о регистрации{' '}
-              </span>
-              193956057 от 20.01.2026
+              <span className="font-medium text-ink">Свидетельство о регистрации: </span>
+              784414 от 02.09.2026
             </p>
             <p>
               <span className="font-medium text-ink">Регистрирующий орган: </span>
               Минский горисполком
             </p>
             <p>
-              <span className="font-medium text-ink">
-                Зарегистрирован в торговом реестре:{' '}
-              </span>
-              20.03.2026
+              <span className="font-medium text-ink">Зарегистрирован в торговом реестре: </span>
+              02.09.2026
             </p>
             <p>
               <span className="font-medium text-ink">Номер регистрации: </span>
               772076
-            </p> */}
+            </p>
             <p>
               <span className="font-medium text-ink">
                 Местонахождение книги замечаний и предложений:{' '}

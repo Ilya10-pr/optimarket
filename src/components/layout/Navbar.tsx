@@ -14,16 +14,7 @@ function DevStatusRibbon() {
       role="status"
       aria-live="polite"
     >
-      <div className="pointer-events-auto flex max-w-[min(100vw-2rem,18rem)] items-center gap-2 rounded-b-xl  border border-t-0 border-ink/12 bg-panel/95 px-3 py-1.5 shadow-[0_8px_24px_oklch(0.4_0.06_262_/_0.12)] backdrop-blur-md sm:max-w-none sm:px-3.5 sm:py-2">
-        <span className="relative flex size-2 shrink-0" aria-hidden>
-          <span className="absolute inline-flex size-full animate-ping rounded-full bg-blaze/35 opacity-80" />
-          <span className="relative inline-flex size-2 rounded-full bg-linear-to-br from-ember to-blaze" />
-        </span>
-        <p className="text-[11px] leading-snug text-mist sm:text-xs">
-          <span className="font-semibold text-ink">Сайт в разработке</span>
-          <span className="hidden min-[420px]:inline"> — скоро станет ещё удобнее</span>
-        </p>
-      </div>
+
     </div>
   )
 }
