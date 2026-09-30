@@ -66,13 +66,17 @@ export function StoreLegalSection() {
               Общество с ограниченной ответственностью «Клуб Ривьера»
             </p>
             <p>
+              <span className="font-medium text-ink">УНП: </span>
+193956057
+            </p>
+            <p>
               <span className="font-medium text-ink">Юридический адрес: </span>
               220007, г. Минск, ул. Быховская, д. 35, пом. 11Н
 УНП 193956057
             </p>
             <p>
               <span className="font-medium text-ink">Свидетельство о регистрации: </span>
-              784414 от 02.09.2026
+              193956057 от 20.01.2026
             </p>
             <p>
               <span className="font-medium text-ink">Регистрирующий орган: </span>

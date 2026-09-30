@@ -62,7 +62,7 @@ export function ProductShowcase() {
           ) : null}
           {!loading && filterableCats.length ? (
             <div
-              className="flex flex-wrap gap-2 pt-2"
+              className="flex  flex-wrap gap-2 pt-2"
               role="group"
               aria-label="Фильтр по категории"
             >

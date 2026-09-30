@@ -5,6 +5,8 @@ export const STORE_CATEGORIES = [
   { id: "construction", label: "Стройка и ремонт" },
   { id: "computers", label: "Компьютеры" },
   { id: "lego", label: "LEGO" },
+  {id: 'dreame', label: 'Пылесосы'},
+  {id: 'airfryeraf', label: 'Аэрогрили'}
 ] as const
 
 
