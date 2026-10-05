@@ -1,50 +1,9 @@
 [
   {
-    "id": "5071801",
-    "title": "Chuwi CoreBook Air Plus CWI654-R5660016G512G",
-    "category": "computers",
-    "price": "1950,00",
-    "discount": "10%",
-    "priceDiscount": "1761,00",
-    "description": "16.0' 1920 x 1200, IPS, 60 Гц, AMD Ryzen 5 6600H, 16 ГБ LPDDR5, SSD 512 ГБ, видеокарта встроенная, Windows 11 Pro, цвет крышки синий, аккумулятор 60 Вт·ч",
-    "badge": "В наличии",
-    "rating": 4.5,
-    "images": [
-      "/assets/computers/l1.webp"
-    ],
-    "reviews": [
-      {
-        "author": "Александр М.",
-        "stars": 4,
-        "text": "Яркий чёткий экран, Ryzen 5 без проблем тянет работу и учёбу."
-      },
-      {
-        "author": "Елена В.",
-        "stars": 5,
-        "text": "Лёгкий и удобный — батареи на весь день хватает, система уже настроена."
-      },
-      {
-        "author": "Дмитрий К.",
-        "stars": 5,
-        "text": "Превосходное соотношение цены и качества для повседневных задач."
-      },
-      {
-        "author": "Игорь П.",
-        "stars": 4,
-        "text": "Отличная сборка и удобная клавиатура — покупкой очень доволен!"
-      },
-      {
-        "author": "Олег Н.",
-        "stars": 3,
-        "text": "Замечательный ноутбук — быстрый, надёжный, полностью рекомендую!"
-      }
-    ]
-  },
-  {
     "id": "1873961",
     "title": "PURE BASE 500DX BGW37",
     "category": "computers",
-    "price": "549,99",
+    "price": "519,00",
     "discount": "",
     "priceDiscount": "",
     "description": "Корпус Mid Tower, БП отсутствует, для плат ATX/micro-ATX/mini-ITX, с 3 вентиляторами в комплекте, окно: закаленное стекло, видеокарта до 369 мм, охлаждение ЦП до 190 мм, пылевой фильтр - сверху/спереди/снизу, 1xUSB-A 3.2 5Гбит/с, 1xUSB-C 3.2 10Гбит/с, цвет черный",
@@ -81,47 +40,7 @@
       }
     ]
   },
-  {
-    "id": "4908982",
-    "title": "Chuwi CoreBook X CWI570-R5743016G512",
-    "category": "computers",
-    "price": "1599,00",
-    "discount": "",
-    "priceDiscount": "",
-    "description": "14.0' 2160 x 1440, IPS, 60 Гц, AMD Ryzen 5 7430U, 16 ГБ DDR4, SSD 512 ГБ, видеокарта встроенная, Windows 11 Home, цвет крышки темно-серый, аккумулятор 46.2 Вт·ч",
-    "badge": "В наличии",
-    "rating": 4.5,
-    "images": [
-      "/assets/computers/chuwi1.webp"
-    ],
-    "reviews": [
-      {
-        "author": "Наталья Р.",
-        "stars": 4,
-        "text": "Экран 2K суперкомфортный — глаза не устают даже к вечеру."
-      },
-      {
-        "author": "Павел Т.",
-        "stars": 5,
-        "text": "SSD и 16 ГБ RAM — всё работает молниеносно!"
-      },
-      {
-        "author": "Сергей Б.",
-        "stars": 5,
-        "text": "Компактный и лёгкий — в рюкзаке почти не замечаешь."
-      },
-      {
-        "author": "Алина Ж.",
-        "stars": 4,
-        "text": "Идеально подошёл для учёбы и работы — рекомендую!"
-      },
-      {
-        "author": "Анна Л.",
-        "stars": 3,
-        "text": "Отличный ноутбук для работы и учёбы — всем довольна!"
-      }
-    ]
-  },
+  
   {
     "id": "5116361",
     "title": "Harman/Kardon SoundSticks 5 (черный)",
@@ -136,20 +55,7 @@
       "/assets/computers/har1.webp"
     ]
   },
-  {
-    "id": "3859509",
-    "title": "Horizont H-book 14 МАК4 T32E3W",
-    "category": "computers",
-    "price": "1059,00",
-    "discount": "",
-    "priceDiscount": "",
-    "description": "14.1' 1920 x 1080, IPS, 60 Гц, Intel Core i3 1115G4, 8 ГБ DDR4, SSD 256 ГБ, видеокарта встроенная, Windows 11 Home, цвет крышки синий, аккумулятор 50 Вт·ч",
-    "badge": "В наличии",
-    "rating": null,
-    "images": [
-      "/assets/computers/H1.webp"
-    ]
-  },
+ 
   {
     "id": "4044710",
     "title": "Sapphire Pulse Radeon RX 7600 8GB 11324-01-20G",
@@ -191,61 +97,7 @@
       }
     ]
   },
-  {
-    "id": "4609033",
-    "title": "Samsung 8ГБ DDR5 SODIMM 5600 МГц M425R1GB4BB0-CWMOD",
-    "category": "computers",
-    "price": "290,00",
-    "discount": "24",
-    "priceDiscount": "219,00",
-    "description": "8 ГБ, 1 модуль DDR5 SO-DIMM, частота 5600 МГц, CL 40T, напряжение 1.1 В",
-    "badge": "В наличии",
-    "rating": null,
-    "images": [
-      "/assets/computers/s1.webp"
-    ]
-  },
-  {
-    "id": "2886456",
-    "title": "Intel Core i7-12700",
-    "category": "computers",
-    "price": "1099,00",
-    "discount": "",
-    "priceDiscount": "",
-    "description": "2022 г, Alder Lake, сокет LGA1700, 12 ядер, 20 потоков, частота 4.9/2.1 ГГц, кэш 12 МБ + 25 МБ, техпроцесс 10 нм, поддержка DDR4/DDR5, TDP 65W, OEM (без коробки, без кулера)",
-    "badge": "В наличии",
-    "rating": 4.5,
-    "images": [
-      "/assets/computers/i1.webp"
-    ],
-    "reviews": [
-      {
-        "author": "Ольга С.",
-        "stars": 4,
-        "text": "12 ядер — рендер просто летит!"
-      },
-      {
-        "author": "Глеб Н.",
-        "stars": 5,
-        "text": "С Noctua держит температуру на отличном уровне."
-      },
-      {
-        "author": "Тимур Х.",
-        "stars": 5,
-        "text": "DDR5 завёлся с первого включения — без сюрпризов."
-      },
-      {
-        "author": "Юрий Л.",
-        "stars": 4,
-        "text": "Лучший апгрейд за последние годы — не пожалеете!"
-      },
-      {
-        "author": "Светлана О.",
-        "stars": 3,
-        "text": "Мощный процессор — производительность впечатляет, рекомендую!"
-      }
-    ]
-  },
+
   {
     "id": "4868313",
     "title": "Corsair HX1500i CP-9020309-EU",
@@ -314,47 +166,6 @@
     "rating": null,
     "images": [
       "/assets/computers/huion1.webp"
-    ]
-  },
-  {
-    "id": "4743998",
-    "title": "HONOR X8c ABR-LX1 8GB/128GB международная версия (зеленый)",
-    "category": "electronics",
-    "price": "588,00",
-    "discount": "",
-    "priceDiscount": "",
-    "description": "Android, экран 6.7' AMOLED (1080x2412) 120 Гц, Qualcomm Snapdragon 685, ОЗУ 8 ГБ, память 128 ГБ, камера 108 Мп, аккумулятор 5000 мАч, моноблок, влагозащита IP64",
-    "badge": "В наличии",
-    "rating": 4.5,
-    "images": [
-      "/assets/electronics/electronic1.webp"
-    ],
-    "reviews": [
-      {
-        "author": "Алина З.",
-        "stars": 4,
-        "text": "AMOLED невероятно сочный — глаза не устают."
-      },
-      {
-        "author": "Богдан Ч.",
-        "stars": 5,
-        "text": "Батареи спокойно хватает на полный день."
-      },
-      {
-        "author": "Ксения Я.",
-        "stars": 5,
-        "text": "IP64 — на улице чувствуешь себя уверенно."
-      },
-      {
-        "author": "Вера Т.",
-        "stars": 4,
-        "text": "Международная версия завелась без единой проблемы."
-      },
-      {
-        "author": "Павел Н.",
-        "stars": 3,
-        "text": "Отличный смартфон для повседневки — камера и экран радуют!"
-      }
     ]
   },
   {
@@ -622,9 +433,9 @@
     "id": "5013078",
     "title": "Tefal X-Clean GF5736F4",
     "category": "appliances",
-    "price": "1599,00 ",
-    "discount": "9",
-    "priceDiscount": "1459,00",
+    "price": "1099,00 ",
+    "discount": "",
+    "priceDiscount": "",
     "description": "вертикальный моющий, аккумулятор, потребление: 250 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой, шум 79 дБ",
     "badge": "В наличии",
     "rating": null,
@@ -632,6 +443,7 @@
       "/assets/appliances/appliance5.webp"
     ]
   },
+
   {
     "id": "4965670",
     "title": "Karcher FCV 4 Extra+ 1.056-134.0",
@@ -646,25 +458,12 @@
       "/assets/appliances/appliance6.webp"
     ]
   },
-  {
-    "id": "5013038",
-    "title": "Tefal X-Clean GF5736F4",
-    "category": "appliances",
-    "price": "1599,00",
-    "discount": "9",
-    "priceDiscount": "1459,00",
-    "description": "вертикальный моющий, аккумулятор, потребление: 250 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой, шум 79 дБ",
-    "badge": "В наличии",
-    "rating": null,
-    "images": [
-      "/assets/appliances/appliance7.webp"
-    ]
-  },
+
   {
     "id": "4738073",
     "title": "Tefal X-Clean 4 GF5035F0",
     "category": "appliances",
-    "price": "1262,21",
+    "price": "870,00",
     "discount": "13",
     "priceDiscount": "1099,00",
     "description": "вертикальный моющий, аккумулятор, потребление: 200 Вт, регулировка мощности, турбощетка, станция для хранения с самоочисткой и зарядкой, шум 79 дБ",
@@ -1116,6 +915,231 @@
         "text": "С ним больше не нужно разогревать большую духовку ради пары котлет и следить за каждым градусом."
       }
     ]
+  },
+
+  {
+    "id": "5063194",
+    "title": "Technic 42228 McLaren MCL39 F1 Car",
+    "category": "lego",
+    "price": "749,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Technic, рекомендуемый возраст 18 лет, 1675 деталей, в собранном виде 61 x 25 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/l10.webp"
+    ],
+    "reviews": []
+  },
+
+  {
+    "id": "5169240",
+    "title": "Shrek 72423 Фигурки Шрек, Осел и Кот в сапогах",
+    "category": "lego",
+    "price": "459,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Shrek, рекомендуемый возраст 18 лет, 1403 детали, в собранном виде 21 x 16 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/l11.webp"
+    ],
+    "reviews": []
+  },
+
+  {
+    "id": "5056049",
+    "title": "Speed Champions 77256 Машина времени из «Назад в будущее»",
+    "category": "lego",
+    "price": "149,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Speed Champions, рекомендуемый возраст 9 лет, 357 деталей, в собранном виде 17 x 7 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/l12.webp"
+    ],
+    "reviews": []
+  },
+
+
+  {
+    "id": "5004558",
+    "title": "Harry Potter Замок Хогвартс: Класс Гербологии 76445",
+    "category": "lego",
+    "price": "199,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Harry Potter, рекомендуемый возраст 8–99 лет, 390 деталей, в собранном виде 13 x 13 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/l14.webp"
+    ],
+    "reviews": []
+  },
+
+  {
+    "id": "4392830",
+    "title": "Star Wars 75375 Сокол Тысячелетия",
+    "category": "lego",
+    "price": "319,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "Star Wars, рекомендуемый возраст 18 лет, 921 деталь, в собранном виде 24 x 19 см",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/lego/l13.webp"
+    ],
+    "reviews": []
+  },
+
+
+  {
+    "id": "4932869",
+    "title": "Pure Rock Pro 3 Black BK042",
+    "category": "bequiet",
+    "price": "339,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "рассеивание до 250 Вт, высота 155 мм, вентилятор 120 мм, прямое направление потока, 2000 об/мин, PWM, подшипник скольжения с винтовой нарезкой (rifle), макс. шум 34.8 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/bequiet/bq1.webp"
+    ],
+    "reviews": []
+  },
+
+
+  {
+    "id": "4362082",
+    "title": "Dark Rock Pro 5 BK036",
+    "category": "bequiet",
+    "price": "499,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "рассеивание до 270 Вт, высота 168 мм, вентилятор 135 мм, 2000 об/мин, PWM, подшипник гидродинамический (FDB), макс. шум 23.3 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/bequiet/bq2.webp"
+    ],
+    "reviews": []
+  },
+  {
+    "id": "4361982",
+    "title": "Dark Rock Elite BK037",
+    "category": "bequiet",
+    "price": "519,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "рассеивание до 280 Вт, высота 168 мм, вентилятор 135 мм, 2000 об/мин, PWM, подшипник гидродинамический (FDB), ARGB подсветка, макс. шум 25.8 дБ",
+    "badge": "В наличии",
+    "rating": 5,
+    "images": [
+      "/assets/bequiet/bq3.webp"
+    ],
+    "reviews": [
+  {
+    "author": "Алексей",
+    "stars": 5,
+    "text": "Отличная система охлаждения, держит температуру даже под нагрузкой и работает почти бесшумно."
+  },
+  {
+    "author": "Марина",
+    "stars": 5,
+    "text": "В использовании пол года, взяла взамен старого кулера, который гудел как самолет и не справлялся с нагревом, а этот охлаждает эффективно и тихо."
+  },
+  {
+    "author": "Дмитрий",
+    "stars": 5,
+    "text": "Качественная система охлаждения под современные сборки и требовательные игры."
+  },
+  {
+    "author": "Ольга",
+    "stars": 5,
+    "text": "С ней больше не нужно переживать о перегреве и постоянно проверять температуру в мониторинге."
+  },
+  {
+    "author": "Сергей",
+    "stars": 5,
+    "text": "Продуманная конструкция, простой монтаж и отличный отвод тепла, рекомендую."
+  }
+]
+  },
+
+
+  {
+    "id": "5240591",
+    "title": "Dark Rock Pro 6 BK048",
+    "category": "bequiet",
+    "price": "569,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "рассеивание до 300 Вт, высота 169 мм, вентилятор 135 мм, прямое направление потока, 2000 об/мин, PWM, подшипник гидродинамический (FDB), макс. шум 32.4 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/bequiet/bq4.webp"
+    ],
+    "reviews": []
+  },
+
+
+
+  {
+    "id": "5320861",
+    "title": "Noctua NH-D15 G2 LBC",
+    "category": "bequiet",
+    "price": "829,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "высота 168 мм, вентилятор 140 мм, прямое направление потока, 1500 об/мин, PWM, подшипник масляного давления (SSO2), макс. шум 24.8 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/bequiet/bq5.webp"
+    ],
+    "reviews": []
+  },
+
+
+  {
+    "id": "4868219",
+    "title": "Noctua NH-D15 G2",
+    "category": "bequiet",
+    "price": "799,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "высота 168 мм, вентилятор 140 мм, прямое направление потока, 1500 об/мин, PWM, подшипник масляного давления (SSO2), макс. шум 24.8 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/bequiet/bq5.webp"
+    ],
+    "reviews": []
+  },
+
+
+  {
+    "id": "5320870",
+    "title": "Noctua NH-D15 G2 HBC",
+    "category": "bequiet",
+    "price": "819,00",
+    "discount": "",
+    "priceDiscount": "",
+    "description": "высота 168 мм, вентилятор 140 мм, прямое направление потока, 1500 об/мин, PWM, подшипник масляного давления (SSO2), макс. шум 24.8 дБ",
+    "badge": "В наличии",
+    "rating": null,
+    "images": [
+      "/assets/bequiet/bq5.webp"
+    ],
+    "reviews": []
   }
 
   
